@@ -41,6 +41,7 @@ body {
   margin: 20px;
   display: flex;
   justify-content: center;
+  background-color: #454e69;
 }
 
 /*ハンバーガーの形をCSSで表現*/
@@ -49,7 +50,7 @@ body {
   height: 3px;/*線の太さ*/
   width: 25px;/*長さ*/
   border-radius: 10px;
-  background: #555;
+  background: #d9d8cf;
   display: block;
   content: '';
   cursor: pointer;
@@ -101,7 +102,7 @@ body {
 #nav-input:checked ~ #nav-content {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
-  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+  box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
 }
 
 .header-logo-menu{
@@ -131,22 +132,46 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  background-color: #333;
+  background-color: #f9f9f9;
 }
 .icon {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  max-width: 70%;
+  height: auto;
   margin: 20px;
 }
 .profile {
-  color: #f9f9f9;
+  color: #4d4d4d;
 }
 ul {
   list-style-type: none;
 }
 li {
   padding: 5px;
+}
+#hanagata {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #873042;
+}
+#hishigata {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #304887;
+}
+#contact {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+h2 {
+  text-align: center;
+  color: #f9f9f9;
 }
 /* @media (max-width:481px) {
   .navi {
