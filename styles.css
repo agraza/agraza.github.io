@@ -139,6 +139,9 @@ li {
   .navi {
     display: none;
   }
+  .top {
+    margin: 0;
+  }
 }
 @media (min-width:480px) {
   #nav-drawer {
