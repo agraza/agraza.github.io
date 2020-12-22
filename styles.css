@@ -28,7 +28,7 @@ body {
 } */
 #nav-drawer {
   position: fixed;
-  top: 10%;
+  top: 0;
   right: 0;
 }
 
