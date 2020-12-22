@@ -12,54 +12,58 @@
   <header>
     <a name="top"></a>
     <div class="header">
-      <nav class="navi">
-        <a href="https://agraza.github.io/"><img src="rogo.png"></a>
-        <ul>
-          <li><a href="#top">TOP</a></li>
-          <li><a href="#about">Profile</a></li>
-          <li><a href="#hanagata">花形</a></li>
-          <li><a href="#hishigata">菱形</a></li>
-          <li><a href="contact">お問い合わせ</a></li>
-        </ul>
-      </nav>
+      <a href="https://agraza.github.io/"><img src="rogo.png" alt="あぐら座"></a>
       <div class="header-logo-menu">
         <div id="nav-drawer">
-            <input id="nav-input" type="checkbox" class="nav-unshown">
-            <label id="nav-open" for="nav-input"><span></span></label>
-            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-            <div id="nav-content">ここに中身を入れる</div>
+          <input id="nav-input" type="checkbox" class="nav-unshown">
+          <label id="nav-open" for="nav-input"><span></span></label>
+          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+          <div id="nav-content">
+            <ul>
+              <li><a href="#top" class="link-scroll">TOP</a></li>
+              <li><a href="#about" class="link-scroll">Profile</a></li>
+              <li><a href="#hanagata" class="link-scroll">花形</a></li>
+              <li><a href="#hishigata" class="link-scroll">菱形</a></li>
+              <li><a href="#contact" class="link-scroll">お問い合わせ</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="logo-area"><a href="https://agraza.github.io/"><img src="rogo.png"></a></div>
-        </div>
+      </div>
       <a name="top"></a>
       <img src="top.png" class="top">
     </div>
     <div class="about">
       <a name="about"></a>
-      <div><img src="icon.png"></div>
-      <div>あああああああああああ<br>aaaaaaaaaaa</div>
+      <div><img src="icon.png" class="icon" alt="あぐら"></div>
+      <div class="profile">
+        <h3>あぐら</h3>
+        <p>愛知県出身&nbsp;9月19日生まれ</p>
+        <p>イラスト／アニメーション</p>
+      </div>
     </div>
-
+    
   </header>
- 
+  
   <main>
     <div>
       <a name="hanagata"></a>
       <h2>花形</h2>
-
+      
     </div>
     <div>
       <a name="hishigata"></a>
       <h2>菱形</h2>
-
+      
     </div>
     <div>
       <a name="contact"></a>
       <h2>お問い合わせ</h2>
-
+      
     </div>
     
   </main>
-
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/link-scroll.js"></script>
 </body>
 </html>
