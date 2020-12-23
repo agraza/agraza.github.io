@@ -177,7 +177,7 @@ main p {
 .swiper-container {
 	width: calc(100% - 100px);	/* ☆前・次ページボタンの幅をそれぞれ50pxとして、その分を引く */
 	padding-bottom: 50px;		/* ★ページネーション・スクロールバー分の余白50pxを下に取る */
-	box-sizing: content-box;
+  box-sizing: content-box;
 }
 /* 前・次スライドボタンの縦位置調整（スライドの高さの中央に合わせる） */
 .swiper-button-prev, .swiper-button-next {
@@ -189,7 +189,7 @@ main p {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 3;
+  z-index: 999;
 }
 
 /*チェックボックス等は非表示に*/
