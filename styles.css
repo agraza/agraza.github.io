@@ -217,6 +217,21 @@ main h2:before {
   box-sizing: border-box;
   background: #f9f9f9;
 }
+.hana {
+  width: 8%;
+  margin-left: 46%;
+  margin-right: 46%;
+}
+.ougi {
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+.hishi {
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
 
 /* @media (max-width:481px) {
   .navi {
