@@ -148,7 +148,7 @@ main h2:before {
 /* 全スライド共通スタイル */
 .swiper-slide {
   color: #ffffff;
-	width: 90%;
+	width: 80%;
   height: 100%;
 	text-align: center;
   line-height: 150px;
@@ -157,7 +157,7 @@ main h2:before {
   
 }
 .swiper-slide img {
-  width: 90%;
+  width: 80%;
   height: auto;
   border-radius: 20%;
   transition: .5s;
