@@ -73,7 +73,7 @@
             <!-- 各スライド -->
             
            
-            <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm33901930/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm33901930">#コンパス ショートMV企画</a></noscript>2018/09/28 イラスト</div>
+            <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm33901930/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm33901930">#コンパス ショートMV企画</a></noscript>2018/09/23 イラスト</div>
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm31622911/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm31622911">【GUMI】 青い糸 【オリジナル】</a></noscript>2017/07/27 イラスト</div>
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm31432822/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm31432822">【GUMI】 青春モラトリアム 【オリジナル】</a></noscript>2017/06/26 イラスト</div>
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm29368019/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm29368019">【XFD】 Alone Reveries 【金谷 1st Album】</a></noscript>2016/08/03 ジャケットイラスト</div>
@@ -118,7 +118,12 @@
       var mySwiper = new Swiper('.swiper-container', {
         slidesPerView: 3,
         spaceBetween: 10,
-        
+        breakpoints: {
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          }
+        },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev'
