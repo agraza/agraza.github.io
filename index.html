@@ -72,7 +72,7 @@
           <div class="swiper-wrapper">
             <!-- 各スライド -->
             
-            <div class="swiper-slide"></div>
+            
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm33901930/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm33901930">#コンパス ショートMV企画</a></noscript>2018/09/23 イラスト</div>
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm31622911/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm31622911">【GUMI】 青い糸 【オリジナル】</a></noscript>2017/07/27 イラスト</div>
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm31432822/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm31432822">【GUMI】 青春モラトリアム 【オリジナル】</a></noscript>2017/06/26 イラスト</div>
@@ -116,9 +116,16 @@
 
     <script>  
       var mySwiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
         slidesPerView: 3,
         spaceBetween: 10,
+        breakpoint: {
+          1280:{
+            slidesPerView: 2
+          },
+          640: {
+            slidesPerView: 2
+          }
+        },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev'
