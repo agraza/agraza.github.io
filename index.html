@@ -11,44 +11,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="js/link-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
   </head>
   <body>
-  <header>
-    <div id="top"></div>
-    <div class="header">
-      <a href="https://agraza.github.io/"><img src="rogo.png" alt="あぐら座" class="rogo"></a>
-      <div class="header-logo-menu">
-        <div id="nav-drawer">
-          <input id="nav-input" type="checkbox" class="nav-unshown">
-          <label id="nav-open" for="nav-input"><span></span></label>
-          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-          <div id="nav-content">
-            <ul>
-              <li><a href="#top" class="link-scroll">TOP</a></li>
-              <li><a href="#about" class="link-scroll">Profile</a></li>
-              <li><a href="#hanagata" class="link-scroll">花形</a></li>
-              <li><a href="#ougigata" class="link-scroll">扇形</a></li>
-              <li><a href="#hishigata" class="link-scroll">菱形</a></li>
-            </ul>
+    <header>
+      <div id="top"></div>
+      <div class="header">
+        <a href="https://agraza.github.io/"><img src="rogo.png" alt="あぐら座" class="rogo"></a>
+        <div class="header-logo-menu">
+          <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+              <ul>
+                <li><a href="#top" class="link-scroll">TOP</a></li>
+                <li><a href="#about" class="link-scroll">Profile</a></li>
+                <li><a href="#hanagata" class="link-scroll">花形</a></li>
+                <li><a href="#ougigata" class="link-scroll">扇形</a></li>
+                <li><a href="#hishigata" class="link-scroll">菱形</a></li>
+              </ul>
+            </div>
           </div>
         </div>
+        <img src="top.png" class="top">
       </div>
-      <img src="top.png" class="top">
-    </div>
-    <div class="about" id="about">
-      <h2>Profile</h2>
-      <div class="agra">
-        <div><img src="icon.png" class="icon" alt="あぐら"></div>
-        <div class="profile">
+      <div class="about" id="about">
+        <h2>Profile</h2>
+        <div class="agra">
+          <div><img src="icon.png" class="icon" alt="あぐら"></div>
+          <div class="profile">
           <h3>あぐら</h3>
           <p>愛知県出身&nbsp;9月19日生まれ</p>
           <p>イラスト／アニメーション</p>
           <p>CLIP&nbsp;STUDIO&nbsp;PAINT／AviUtl／Inkscape</p>
         </div>
-
+        
       </div>
     </div>
     
@@ -88,13 +85,13 @@
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm22237803/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm22237803">【ボーマス27】iDentiTy【クロスフェード】</a></noscript>2013/11/12 ジャケットイラスト</div>
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm21948050/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm21948050">【"years" 10/12】October【初音ミクVividオリジナル】</a></noscript>2013/10/01 イラスト</div>
             <div class="swiper-slide"><script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm21523565/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/sm21523565">VY1V3オリジナル　answer</a></noscript>2013/08/05 イラスト</div>
-         </div>
+          </div>
         </div>
         <!-- Swiper END -->
         <div class="swiper-button-prev swiper-button-white"></div>
-       <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
 
-
+        
       </div>
       
     </div>
@@ -113,8 +110,11 @@
     </div>
   </footer>
   
-
-    <script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/link-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+  
+  <script>  
       var mySwiper = new Swiper('.swiper-container', {
         slidesPerView: 3,
         spaceBetween: 10,
@@ -139,6 +139,6 @@
         }
       });
       
-    </script>
+      </script>
 </body>
 </html>
