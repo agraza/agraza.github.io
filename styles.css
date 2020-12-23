@@ -219,16 +219,19 @@ main h2:before {
 }
 .hana {
   width: 8%;
+  height: auto;
   margin-left: 46%;
   margin-right: 46%;
 }
 .ougi {
   width: 10%;
+  height: auto;
   margin-left: 45%;
   margin-right: 45%;
 }
 .hishi {
   width: 10%;
+  height: auto;
   margin-left: 45%;
   margin-right: 45%;
 }
