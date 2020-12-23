@@ -189,6 +189,7 @@ footer {
 }
 .about h2 {
   width: 40%;
+  height: auto;
   margin-left: 30%;
   margin-right: 30%;
   box-sizing: border-box;
