@@ -1,13 +1,14 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: brown;
+  background-color: #f9f9f9;
   padding: 0;
   margin: 0 ;
-  font-family: "ヒラギノ角ゴ","sans-serif","arial";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .header {
   width: 100%;
+  height: auto;
   background-color: #f9f9f9;
 }
 .rogo {
@@ -132,11 +133,14 @@ body {
   height: auto;
   padding-top: 5%;
   padding-bottom: 5%;
+  background-color: #f9f9f9;
+}
+.agra {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  background-color: #f9f9f9;
+  
 }
 .icon {
   border-radius: 50%;
@@ -145,7 +149,7 @@ body {
   margin: 20px;
 }
 .profile {
-  color: #4d4d4d;
+  color: #1a1a1a;
 }
 ul {
   list-style-type: none;
@@ -160,23 +164,59 @@ li {
   padding-bottom: 5%;
   background-color: #873042;
 }
+#ougigata {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #bcb442;
+}
 #hishigata {
   width: 100%;
   height: auto;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: #304887;
+  background-color: #334570;
 }
-#contact {
+footer {
   width: 100%;
   height: auto;
   padding-top: 5%;
   padding-bottom: 5%;
-}
-h2 {
+  background-color: #1a1a1a;
   text-align: center;
   color: #f9f9f9;
 }
+.about h2 {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-sizing: border-box;
+  text-align: center;
+  color: #1a1a1a;
+  padding: 1rem 2rem;
+  border: 6px double #1a1a1a;
+}
+main h2 {
+  position: relative;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  color: #f9f9f9;
+}
+main h2:before {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 3px;
+  content: '';
+  border-radius: 3px;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+
 /* @media (max-width:481px) {
   .navi {
     display: none;
