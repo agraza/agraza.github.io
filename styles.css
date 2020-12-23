@@ -119,6 +119,10 @@ main h2:before {
   box-sizing: border-box;
   background: #f9f9f9;
 }
+main p {
+  text-align: center;
+  color: #f9f9f9;
+}
 .hana {
   width: 8%;
   height: auto;
@@ -141,20 +145,20 @@ main h2:before {
 /* 全体のスタイル */
 .swiper-wrapper {
   width: 100%;
-  height: 250px;
+  height: 200px;
   position: relative;
   z-index: 1;
+ 
 }
 /* 全スライド共通スタイル */
 .swiper-slide {
   color: #ffffff;
-	width: 80%;
-  height: 100%;
+  height: auto;
 	text-align: center;
-  line-height: 150px;
+  /* line-height: 30px; */
   margin-top: 5%;
   margin-bottom: 5%;
-  
+
 }
 .swiper-slide img {
   width: 80%;
@@ -185,7 +189,7 @@ main h2:before {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 /*チェックボックス等は非表示に*/
@@ -277,6 +281,7 @@ main h2:before {
  -webkit-flex-direction: row;
  -ms-flex-direction: row;
 }
+
 
 /*ロゴやサイトタイトルをセンタリング*/
 /* .logo-area{text-align:center;margin:auto;} */
