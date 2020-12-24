@@ -11,6 +11,9 @@ body {
   height: auto;
   background-color: #f9f9f9;
 }
+h1 {
+  margin: 0;
+}
 .rogo {
   width: 20%;
   height: auto;
