@@ -209,13 +209,14 @@ main p {
   display: inline-block;
   z-index: 20;
   position: relative;
-  width: 70%;
+  width: 70vw;
   max-width: 600px;
   padding: 30px 30px 15px;
   border-radius: 2px;
   background: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, .6);
-  vertical-align: middle
+  vertical-align: middle;
+  height: auto;
 }
 
 .modal-wrapper .modal-window .modal-content {
@@ -224,6 +225,10 @@ main p {
 }
 .modal-content p {
   color: #1a1a1a;
+}
+.modal-content img {
+  width: 100%;
+  height: auto;
 }
 
 .modal-overlay {
