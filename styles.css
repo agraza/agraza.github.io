@@ -213,7 +213,7 @@ main p {
   max-width: 600px;
   padding: 30px 30px 15px;
   border-radius: 2px;
-  background: #fff;
+  background: #f9f9f9;
   box-shadow: 0 0 30px rgba(0, 0, 0, .6);
   vertical-align: middle;
   height: auto;
@@ -264,6 +264,9 @@ main p {
   top: 0;
   right: 0;
   z-index: 999;
+}
+iframe {
+  max-width: 100%;
 }
 
 /*チェックボックス等は非表示に*/
