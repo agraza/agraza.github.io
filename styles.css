@@ -164,6 +164,15 @@ main p {
 .slick-next:before {
   color: #000;
 }
+.slider img {
+  margin: 5px 0 5px 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.slider img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
 .modal-wrapper {
   z-index: 999;
   position: fixed;
