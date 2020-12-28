@@ -157,14 +157,6 @@ main p {
   height: auto;
   width: 100%;
   border-radius: 10%;
-}
-
-/*slick setting*/
-.slick-prev:before,
-.slick-next:before {
-  color: #000;
-}
-.slider img {
   margin: 5px 0 5px 0;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -172,6 +164,11 @@ main p {
 .slider img:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
 }
 .modal-wrapper {
   z-index: 999;
