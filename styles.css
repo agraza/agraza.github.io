@@ -14,6 +14,9 @@ body {
 h1 {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 .rogo {
   width: 20%;
   height: auto;
@@ -342,7 +345,7 @@ iframe {
   width: 90%;
   max-width: 20%;/*最大幅（お好みで調整を）*/
   height: 100%;
-  background: #fff;
+  background: #f9f9f9;
   transition: .3s ease-in-out;
   -webkit-transform: translateX(105%);
   transform: translateX(105%);
@@ -358,7 +361,16 @@ iframe {
 #nav-content img:hover {
   filter: brightness(70%);
 } */
-
+.menu {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #1a1a1a;
+  border-color: #454e69;
+}
+.menu:hover {
+  filter: brightness(70%);
+}
 
 /*チェックがついたら表示させる*/
 #nav-input:checked ~ #nav-close {
