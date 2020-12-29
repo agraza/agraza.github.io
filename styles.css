@@ -278,9 +278,6 @@ main p {
   right: 0;
   z-index: 999;
 }
-#nav-drawer:hover {
-  filter: brightness(70%);
-}
 iframe {
   max-width: 100%;
 }
