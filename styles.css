@@ -333,8 +333,6 @@ iframe {
 }
 
 /*メニューの中身*/
-
-}
 #nav-content {
   overflow: auto;
   position: fixed;
@@ -353,6 +351,7 @@ iframe {
   #nav-content {
     max-width: 40%;/*最大幅（お好みで調整を）*/
   }
+}
 #nav-content img {
   filter: brightness(70%);
 }
