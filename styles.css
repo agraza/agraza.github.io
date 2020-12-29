@@ -168,12 +168,10 @@ main p {
   margin: 5px 0 5px 0;
   -webkit-transition: all 1s;
   transition: all 1s;
-  filter: brightness(70%);
 }
 .slider img:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-  filter: brightness(100%);
 }
 /*slick setting*/
 .slick-prev:before,
