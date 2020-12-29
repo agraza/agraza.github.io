@@ -333,6 +333,12 @@ iframe {
 }
 
 /*メニューの中身*/
+@media (max-width: 670px) {
+  #nav-content {
+    max-width: 40%;/*最大幅（お好みで調整を）*/
+  }
+
+}
 #nav-content {
   overflow: auto;
   position: fixed;
@@ -340,7 +346,7 @@ iframe {
   right: 0;
   z-index: 9999;
   width: 90%;
-  max-width: 40%;/*最大幅（お好みで調整を）*/
+  max-width: 20%;/*最大幅（お好みで調整を）*/
   height: 100%;
   background: #fff;
   transition: .3s ease-in-out;
