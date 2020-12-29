@@ -352,12 +352,12 @@ iframe {
     max-width: 40%;/*最大幅（お好みで調整を）*/
   }
 }
-#nav-content img {
+/* #nav-content img {
   filter: brightness(70%);
 }
 #nav-content img:hover {
   filter: brightness(70%);
-}
+} */
 
 
 /*チェックがついたら表示させる*/
