@@ -56,6 +56,14 @@ h1 {
 .profile {
   color: #1a1a1a;
 }
+.twitter {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 2px;
+}
+.twitter:hover {
+  filter: brightness(70%);
+}
 ul {
   list-style-type: none;
 }
@@ -160,10 +168,12 @@ main p {
   margin: 5px 0 5px 0;
   -webkit-transition: all 1s;
   transition: all 1s;
+  filter: brightness(70%);
 }
 .slider img:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+  filter: brightness(100%);
 }
 /*slick setting*/
 .slick-prev:before,
@@ -262,6 +272,9 @@ main p {
   right: 0;
   z-index: 999;
 }
+#nav-drawer:hover {
+  filter: brightness(70%);
+}
 iframe {
   max-width: 100%;
 }
@@ -330,6 +343,13 @@ iframe {
   -webkit-transform: translateX(105%);
   transform: translateX(105%);
 }
+#nav-content img {
+  filter: brightness(70%);
+}
+#nav-content img:hover {
+  filter: brightness(70%);
+}
+
 
 /*チェックがついたら表示させる*/
 #nav-input:checked ~ #nav-close {
