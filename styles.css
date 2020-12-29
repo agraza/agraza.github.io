@@ -333,10 +333,6 @@ iframe {
 }
 
 /*メニューの中身*/
-@media (max-width: 670px) {
-  #nav-content {
-    max-width: 40%;/*最大幅（お好みで調整を）*/
-  }
 
 }
 #nav-content {
@@ -353,6 +349,10 @@ iframe {
   -webkit-transform: translateX(105%);
   transform: translateX(105%);
 }
+@media (max-width: 670px) {
+  #nav-content {
+    max-width: 40%;/*最大幅（お好みで調整を）*/
+  }
 #nav-content img {
   filter: brightness(70%);
 }
