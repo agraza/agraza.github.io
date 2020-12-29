@@ -403,10 +403,14 @@ iframe {
   width: 70%;
   max-width: 340px;
   padding: 15px 10px;
+  border-radius: 5px;
   display: inline-block;
   text-align: center;
   letter-spacing: 0.1em;
   color: #f9f9f9;
-  background-color: #ff6600;
+  background-color: #873042;
   text-decoration: none;
-  }
+}
+.btn:hover {
+  filter:brightness(70%);
+}
