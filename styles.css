@@ -59,9 +59,17 @@ h1 {
 .twitter {
   width: 1.5rem;
   height: 1.5rem;
-  margin: 2px;
+  margin: 3px;
 }
 .twitter:hover {
+  filter: brightness(70%);
+}
+.mail {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 3px;
+}
+.mail:hover {
   filter: brightness(70%);
 }
 ul {
@@ -386,7 +394,14 @@ iframe {
 .detail p {
   text-align: left;
 }
-
+.profile h3 {
+  display: flex;
+  justify-content: baseline;
+}
+.profile p {
+  display: flex;
+  justify-content: baseline;
+}
 /*ロゴやサイトタイトルをセンタリング*/
 /* .logo-area{text-align:center;margin:auto;} */
 /* @media (max-width:481px) {
